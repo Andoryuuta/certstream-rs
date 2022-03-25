@@ -1,5 +1,6 @@
 [package]
 name = "certstreamrs"
+description = "A library for streaming Certificate Transparency Log events from the certstream service"
 version = "0.1.0"
 authors = ["Andrew Gutekanst <andrew.gutekanst@gmail.com>"]
 edition = "2021"
