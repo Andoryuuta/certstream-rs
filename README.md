@@ -3,7 +3,7 @@ An unofficial port of [certstream-go](https://github.com/CaliDog/certstream-go) 
 
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Crates.io](https://img.shields.io/crates/v/certstream-rs.svg?maxAge=2592000)](https://crates.io/crates/certstream-rs)
+[![Crates.io](https://img.shields.io/crates/v/certstreamrs.svg?maxAge=2592000)](https://crates.io/crates/certstreamrs)
 
 This library streams Certificate Transparency Log notifications from https://certstream.calidog.io/ (or a custom instance of the [certstream-server](https://github.com/CaliDog/certstream-server)).
 
