@@ -59,8 +59,7 @@ impl CertstreamClient {
     }
 
     pub fn watch_certs(&self) -> impl Stream<Item = Result<CertstreamMessage, Box<dyn Error>>> {
-        let url = url::Url::parse(&self.url).unwrap();
-
+        let url = self.url.clone();
         try_stream! {
             loop {
                 // Connect to the certstream websocket server, which provides a constant stream of certificate notifications.
